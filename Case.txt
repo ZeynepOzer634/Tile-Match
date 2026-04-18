@@ -1,0 +1,46 @@
+Unity Developer Intern — Case Study
+Tile Match
+Overview
+This case focuses on implementing the core mechanic of a puzzle tile match/jam game. Tiles
+are stacked in layers on a board. The player taps tiles to collect them, either fulfilling an order
+directly or placing them into a rack. The goal is to complete all orders before the rack fills up.
+Reference: Tile Jam Mania
+iOS: https://apps.apple.com/us/app/tile-jam-mania/id6752986781
+Android: https://play.google.com/store/apps/details?id=com.kiwifun.game.android.tile.jam
+Setup
+Parameter Value
+Unity Version 6000.0.62f1 (Unity 6)
+Resolution 1170 × 2532 (Portrait)
+Platform Editor playable is sufficient
+Assets Visuals are not important. To make it easier, some tile icons and a
+base tile design are provided.
+Core Mechanic
+Board & Layers
+• Tiles are placed on a board and can be stacked in multiple layers.
+• Only the topmost, unblocked tiles can be tapped by the player.
+• Each tile has an icon/type (e.g. fruit, object, etc.).
+Orders
+• Each level has one or more orders displayed at the top of the screen. Each order always
+consists of 3 icons.
+• When the player taps a tile, if it matches the next required icon in the current order, it
+goes directly to the order tray — it does not enter the rack.
+• When an order is fully completed, the next order becomes active.
+Rack
+• The rack has 6 slots and acts as an inventory.
+• If a tapped tile does not match the current order’s next required icon, it goes to the rack.
+• When the rack becomes full (all 6 slots occupied), the fail state is triggered immediately.
+Win & Fail
+• Win: All orders are completed (all tiles collected).
+• Fail: The rack becomes full.
+Bonus Question
+How would you design a level design tool for this game?
+What Matters
+• Core mechanic must work correctly and the level must be completable.
+• Animations and game feel should be good.
+• Code architecture should be clean and scalable.
+• Performance should be smooth on low-end devices.
+Submission
+Please send us a GitHub repository link and a gameplay video link. You can use third-party
+libraries (DOTween, UniTask, etc.). You are completely free to use AI tools throughout the
+process.
+Good luck!
