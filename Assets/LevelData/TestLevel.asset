@@ -13,134 +13,121 @@ MonoBehaviour:
   m_Name: TestLevel
   m_EditorClassIdentifier: 
   initialTiles:
-  - x: 1
-    y: -3
-    z: 0
-    tileTypeId: 0
-  - x: 3
-    y: -1
-    z: 0
-    tileTypeId: 7
-  - x: 3
-    y: 1
-    z: 0
-    tileTypeId: 4
-  - x: 3
-    y: 3
-    z: 0
-    tileTypeId: 12
   - x: -1
     y: 1
     z: 0
-    tileTypeId: 11
-  - x: 1
-    y: -1
-    z: 0
-    tileTypeId: 7
-  - x: 2
-    y: 2
-    z: 1
-    tileTypeId: 4
-  - x: 0
-    y: 0
-    z: 1
-    tileTypeId: 2
-  - x: -3
-    y: -3
-    z: 0
-    tileTypeId: 6
-  - x: 2
-    y: 0
-    z: 1
-    tileTypeId: 5
-  - x: -3
-    y: 3
-    z: 0
-    tileTypeId: 10
-  - x: 1
-    y: 3
-    z: 0
-    tileTypeId: 5
-  - x: -3
-    y: 1
-    z: 0
-    tileTypeId: 3
-  - x: 1
-    y: 1
-    z: 0
-    tileTypeId: 9
-  - x: 3
-    y: -3
-    z: 0
-    tileTypeId: 2
-  - x: 2
-    y: -2
-    z: 1
-    tileTypeId: 9
-  - x: -1
-    y: -1
-    z: 0
-    tileTypeId: 3
-  - x: -3
-    y: -1
-    z: 0
-    tileTypeId: 5
-  - x: 0
-    y: 0
-    z: 3
-    tileTypeId: 14
-  - x: -2
-    y: -2
-    z: 1
-    tileTypeId: 2
-  - x: -1
-    y: -3
-    z: 0
-    tileTypeId: 6
-  - x: 1
-    y: 1
-    z: 2
-    tileTypeId: 7
-  - x: -2
-    y: 0
-    z: 1
-    tileTypeId: 4
-  - x: -1
-    y: 3
-    z: 0
-    tileTypeId: 6
-  - x: -1
-    y: 1
-    z: 2
-    tileTypeId: 12
-  - x: 0
-    y: 2
-    z: 1
-    tileTypeId: 5
-  - x: -2
-    y: 2
-    z: 1
-    tileTypeId: 11
-  - x: 1
-    y: -1
-    z: 2
     tileTypeId: 1
+  - x: -3
+    y: -1
+    z: 0
+    tileTypeId: 14
+  - x: 5
+    y: 1
+    z: 0
+    tileTypeId: 14
+  - x: -5
+    y: 1
+    z: 0
+    tileTypeId: 10
+  - x: 5
+    y: -1
+    z: 0
+    tileTypeId: 7
+  - x: 1
+    y: 3
+    z: 0
+    tileTypeId: 3
+  - x: 2
+    y: 0
+    z: 1
+    tileTypeId: 7
+  - x: 1
+    y: -1
+    z: 0
+    tileTypeId: 5
+  - x: -1
+    y: -3
+    z: 0
+    tileTypeId: 12
+  - x: 1
+    y: -3
+    z: 0
+    tileTypeId: 11
+  - x: 3
+    y: 1
+    z: 0
+    tileTypeId: 3
+  - x: -5
+    y: -1
+    z: 0
+    tileTypeId: 8
+  - x: 0
+    y: 4
+    z: 1
+    tileTypeId: 11
+  - x: -2
+    y: 0
+    z: 1
+    tileTypeId: 6
+  - x: 0
+    y: 0
+    z: 1
+    tileTypeId: 13
+  - x: 4
+    y: 0
+    z: 1
+    tileTypeId: 6
+  - x: 1
+    y: -5
+    z: 0
+    tileTypeId: 7
   - x: -1
     y: -1
-    z: 2
-    tileTypeId: 10
+    z: 0
+    tileTypeId: 2
+  - x: -1
+    y: 3
+    z: 0
+    tileTypeId: 2
+  - x: 3
+    y: -1
+    z: 0
+    tileTypeId: 11
+  - x: -1
+    y: -5
+    z: 0
+    tileTypeId: 2
   - x: 0
     y: -2
     z: 1
+    tileTypeId: 1
+  - x: 0
+    y: 2
+    z: 1
+    tileTypeId: 4
+  - x: 1
+    y: 5
+    z: 0
+    tileTypeId: 6
+  - x: 1
+    y: 1
+    z: 0
+    tileTypeId: 6
+  - x: -3
+    y: 1
+    z: 0
+    tileTypeId: 6
+  - x: -1
+    y: 5
+    z: 0
     tileTypeId: 6
   levelOrders:
-  - requiredTileTypeIds: 010000000a00000006000000
-  - requiredTileTypeIds: 0c000000050000000b000000
-  - requiredTileTypeIds: 070000000400000006000000
-  - requiredTileTypeIds: 0e0000000200000006000000
-  - requiredTileTypeIds: 090000000300000005000000
-  - requiredTileTypeIds: 030000000900000002000000
-  - requiredTileTypeIds: 050000000a00000005000000
-  - requiredTileTypeIds: 040000000200000006000000
-  - requiredTileTypeIds: 0c0000000b00000007000000
-  - requiredTileTypeIds: 000000000700000004000000
+  - requiredTileTypeIds: 060000000600000006000000
+  - requiredTileTypeIds: 010000000400000006000000
+  - requiredTileTypeIds: 020000000b00000002000000
+  - requiredTileTypeIds: 060000000700000002000000
+  - requiredTileTypeIds: 0b000000060000000d000000
+  - requiredTileTypeIds: 0b0000000300000008000000
+  - requiredTileTypeIds: 07000000050000000c000000
+  - requiredTileTypeIds: 0a0000000700000003000000
+  - requiredTileTypeIds: 010000000e0000000e000000
